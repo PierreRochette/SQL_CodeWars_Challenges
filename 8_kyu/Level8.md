@@ -40,3 +40,11 @@ Write an SQL query that returns these columns:
 - `depth`
 - `area (int)` - the total surface area of the box.
 - `volume (int)` - the volume of the box. Sort the results by area ascending, then by volume ascending, then by width ascending, and finally by height in ascending order.
+
+# 8. Third Angle of a Triangle
+
+You are given two interior angles (in degrees) of a triangle.
+
+Write a function to return the 3rd.
+
+Note: only positive integers will be tested.
