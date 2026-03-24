@@ -1,0 +1,2 @@
+SELECT dna, REPLACE(REPLACE())
+FROM dnastrand; 
