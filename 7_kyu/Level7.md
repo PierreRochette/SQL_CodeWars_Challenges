@@ -31,3 +31,20 @@ Your task is to use a select statement to return a single column table containin
 
 title
 Don't forget to add spaces.
+
+# 3. Counting and Grouping
+
+Given a demographics table in the following format:
+
+** demographics table schema **
+
+id
+name
+birthday
+race
+you need to return a table that shows a count of each race represented, ordered by the count in descending order as:
+
+** output table schema **
+
+race
+count
