@@ -48,3 +48,33 @@ you need to return a table that shows a count of each race represented, ordered 
 
 race
 count
+
+# 4. Finding people with a speeding record
+
+
+Context
+You are a German police officer. The graphical management system for records about people speeding is currently not online. Since you have some experience with databases you are tasked to manually write a query to find all people and the related records
+
+Task
+Select the id and birthdate of each person. Provide the sum of all speed deltas for each person. Make sure to provide a delta for each person, even if there are no records. In such case return 0 for the total_speed_delta. Your output should be ordered by the person_id in ''ascending order''.
+
+# 5. SQL Basics - Position
+
+You have access to a table of monsters as follows:
+
+monsters schema
+
+id
+name
+legs
+arms
+characteristics
+In each row, the characteristic column has a single comma. Your job is to find it using position(). You must return a table with the format as follows:
+
+output schema
+
+id
+name
+comma
+The comma column will contain the position of the comma within the characteristics string. Order the results by comma.
+
